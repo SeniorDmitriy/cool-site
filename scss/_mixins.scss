@@ -1,0 +1,44 @@
+@mixin font__size-default ($color: rgba(0, 0, 0, 0.75)){
+	font-family: 'SF-UI-Display';
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 21px;
+	color: $color;
+}
+
+@mixin font__size-regular ($color: #000, $fz: 14px, $lh: 21px, $fw: 400){
+	font-size: $fz;
+	line-height: $lh;
+	color: $color;
+	font-weight: $fw;
+}
+
+@mixin font__size-medium ($color: #fff, $fw: 500){
+	font-weight: $fw;
+	font-size: 36px;
+	line-height: 41px;
+	color: $color;
+}
+
+@mixin font__size-bold ($color: #fff, $fw: 700){
+	font-weight: $fw;
+	font-size: 48px;
+	line-height: 55px;
+	color: $color;
+}
+
+@mixin pseudo($top: 0){
+	content: '';
+	position: absolute;
+	top: $top;
+	
+}
+
+@mixin def__btn{
+	background: #4479BC;
+	border-radius: 5px;
+	padding: 12px 20px;
+	color: #FFF;
+	outline: none;
+	border:none;
+}

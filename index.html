@@ -1,0 +1,841 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NewLvL</title>
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/jquery.formstyler.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <div class="header__logo">
+                    <a href="#" class="logo">
+                        Дома счастливых семей
+                    </a>
+                </div>
+                <nav class="header__list">
+                    <ul class="nav__items">
+                        <li class="nav__item list__item pos__item pos__item-1">
+                            <a class="nav__item-link " href="#">
+                                Проекты и цены
+                            </a>
+                        </li>
+                        <li class="nav__item list__item item-list-1">
+                            <a class="nav__item-link nav__link--drop" href="#">
+                                Технологии
+                            </a>
+                            <ul class="nav__List nav__list--dropdown dropdown__list dropdown__submenu">
+                                <li class="dropdown__list-item mobile back ">
+                                    <a href="#" class="dropdown__list-link mobile__back-link">Back</a>
+                                </li>
+                                <li class="dropdown__submenu-item list__item">
+                                    <ul class="dropdown__submenu-list">
+                                        <li class="dropdown__submenu__list-item">
+                                            <a href="#">Производство</a>
+                                        </li>
+                                        <li class="dropdown__submenu__list-item">
+                                            <a href="#">Технологии</a>
+                                        </li>
+                                        <li class="dropdown__submenu__list-item">
+                                            <a href="#">Этапы работ</a>
+                                        </li>
+                                        <li class="dropdown__submenu__list-item">
+                                            <a href="#">Гарантии</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav__item list__item item-list-2">
+                            <a class="nav__item-link nav__link--drop" href="#">
+                                Услуги
+                            </a>
+                            <ul class="nav__List nav__list--dropdown dropdown__list dropdown__submenu">
+                                <li class="dropdown__list-item mobile back">
+                                    <a href="#" class="dropdown__list-link mobile__back-link">Back</a>
+                                </li>
+                                <li class="dropdown__submenu-item">
+                                    <ul class="dropdown__submenu-list">
+                                        <li class="dropdown__submenu__list-item">
+                                            <a href="#">Производство</a>
+                                        </li>
+                                        <li class="dropdown__submenu__list-item">
+                                            <a href="#">Технологии</a>
+                                        </li>
+                                        <li class="dropdown__submenu__list-item">
+                                            <a href="#">Этапы работ</a>
+                                        </li>
+                                        <li class="dropdown__submenu__list-item">
+                                            <a href="#">Гарантии</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav__item list__item pos__item pos__item-2">
+                            <a class="nav__item-link" href="#">
+                                Акции
+                            </a>
+                        </li>
+                        <li class="nav__item list__item item-list-3">
+                            <a class="nav__item-link nav__link--drop nav__item-link--active" href="#">
+                                О компании
+                            </a>
+                            <ul class="nav__List nav__list--dropdown dropdown__list dropdown__submenu">
+                                <li class="dropdown__list-item mobile back">
+                                    <a href="#" class="dropdown__list-link mobile__back-link">Back</a>
+                                </li>
+                                <li class="dropdown__submenu-item">
+                                    <ul class="dropdown__submenu-list">
+                                        <li class="dropdown__submenu__list-item">
+                                            <a href="#">Производство</a>
+                                        </li>
+                                        <li class="dropdown__submenu__list-item">
+                                            <a href="#">Технологии</a>
+                                        </li>
+                                        <li class="dropdown__submenu__list-item">
+                                            <a href="#">Этапы работ</a>
+                                        </li>
+                                        <li class="dropdown__submenu__list-item">
+                                            <a href="#">Гарантии</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav__item list__item pos__item pos__item-3">
+                            <a class="nav__item-link" href="#">
+                                Галерея объектов
+                            </a>
+                        </li>
+                        <li class="nav__item list__item pos__item pos__item-4">
+                            <a class="nav__item-link" href="#">
+                                Контакты
+                            </a>
+                        </li>
+                        <span class="nav__item brink"></span>
+
+                    </ul>
+                </nav>
+                <button class="burger">
+                    <span class="burger__btn"></span>
+                </button>
+                <div class="header__info">
+                    <a href="tel:89218893226" class="header__info-tel">8 (921) 889-32-26</a>
+                    <div class="header__time">
+                        <span class="header__info-time">
+                            10:00 - 19:00
+                        </span>
+                        <div class="time__img">
+                            <a class="time__icon-link" href="viber://chat?number=89218893226">
+                                <img src="images/viber-icon.svg" alt="">
+                            </a>
+                            <a class="time__icon-link" href="whatsapp://send?phone=89218893226">
+                                <img src="images/WhatsApp-icon.svg" alt="">
+                            </a>
+                            <a class="time__icon-link" href="tg://resolve?domain=nikname">
+                                <img src="images/telegram-icon.svg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <img class="header__phone-icon" src="images/header-phone.svg" alt="">
+            </div>
+        </div>
+    </header>
+    <!-- Slider -->
+    <section class="slider" style="background-image: url(images/slider-bg.jpg);">
+        <div class="container">
+            <div class="slider__inner">
+                <div class="slider__item">
+                    <div class="slider__desc">
+                        Проектирование и строительство
+                    </div>
+                    <div class="slider__title">
+                        Энергоэффективные <span class="slider__title-sub">дома</span>
+                    </div>
+                    <p class="slider__text">
+                        Мы разрабатываем, изготавливаем и продаем загородные каркасные, панельно-каркасные дома и коттеджи, таунхаусы и многоквартирные дома
+                    </p>
+                </div>
+                <div class="slider__item">
+                    <div class="slider__desc">
+                        Проектирование и строительство
+                    </div>
+                    <div class="slider__title">
+                        Энергоэффективные <span class="slider__title-sub">дома</span>
+                    </div>
+                    <p class="slider__text">
+                        Мы разрабатываем, изготавливаем и продаем загородные каркасные, панельно-каркасные дома и коттеджи, таунхаусы и многоквартирные дома
+                    </p>
+                </div>
+                <div class="slider__item">
+                    <div class="slider__desc">
+                        Проектирование и строительство
+                    </div>
+                    <div class="slider__title">
+                        Энергоэффективные <span class="slider__title-sub">дома</span>
+                    </div>
+                    <p class="slider__text">
+                        Мы разрабатываем, изготавливаем и продаем загородные каркасные, панельно-каркасные дома и коттеджи, таунхаусы и многоквартирные дома
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="blog">
+        <div class="container">
+            <div class="blog__text">
+                <div class="blog__title">
+                    Надежная команда
+                </div>
+                <div class="blog__title-text">
+                    Качество и надежность построенных домов обеспечиваются командой профессионалов, контролирующих проектирование и строительство на каждом этапе.
+                </div>
+            </div>
+            <div class="blog__wrapper">
+                <div class="blog__row-wrapper">
+                <div class="blog__row">
+                    <div class="row__images">
+                        <img class="row__img" src="images/blog-item-1.jpg" alt="">
+                    </div>
+                    <div class="row__desc">
+                        <div class="row__desc-title">
+                            Алексей Иванов
+                        </div>
+                        <div class="row__desc-text">
+                            Архитектор, опыт проектирования панельно-каркасных домов более 10 лет.
+                        </div>
+                        <p class="row__text">
+                            Инженер-технолог выбирает оборудование, на котором следует осуществлять технологический процесс, оптимальные режимы работы, основные методы контроля качества, ведёт технологическую документацию.
+                        </p>
+                        <div class="row__sub-text">
+                            Узнайте о правильном и грамотном строительстве:
+                        </div>
+                        <a href="#" class="row__btn">
+                            Читать в блоге
+                        </a>
+                    </div>
+                </div>
+                </div>
+                <div class="blog__row-wrapper">
+                <div class="blog__row">
+                    <div class="row__images">
+                        <img class="row__img" src="images/blog-item-2.jpg" alt="">
+                    </div>
+                    <div class="row__desc">
+                        <div class="row__desc-title">
+                            Алексей Иванов
+                        </div>
+                        <div class="row__desc-text">
+                            Архитектор, опыт проектирования панельно-каркасных домов более 10 лет.
+                        </div>
+                        <p class="row__text">
+                            Инженер-технолог выбирает оборудование, на котором следует осуществлять технологический процесс, оптимальные режимы работы, основные методы контроля качества, ведёт технологическую документацию.
+                        </p>
+                        <div class="row__sub-text">
+                            Узнайте о правильном и грамотном строительстве:
+                        </div>
+                        <a href="#" class="row__btn">
+                            Читать в блоге
+                        </a>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="slider-two" style="background-image: url(images/slider-two-bg.png)">
+        <div class="container">
+            <div class="slider__title-two">
+                Прозрачность в использовании материалов
+            </div>
+            <div class="slider__two-inner">
+                <div class="slider-for">
+                    <div class="slidern__item">
+                        <img class="slider__img" src="images/slider-main-img.png" alt="">
+                        <div class="slider__item-desc">
+                            <div class="slider__item-title">
+                                kokfqojfowjf
+                            </div>
+                            <p class="slider__item-text">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, saepe beatae. Consectetur officiis voluptatem non eveniet alias eos, animi at pariatur id rerum, tempore, nesciunt laborum atque impedit repudiandae labore earum nemo quo aperiam quisquam
+                                consequatur beatae unde eaque! Consectetur quas voluptatibus ipsa eveniet, debitis ipsam officia aperiam quia sapiente sint nobis atque voluptatem tempore eius error animi repudiandae esse totam est quasi. Beatae pariatur,
+                                dignissimos saepe assumenda omnis recusandae?
+                            </p>
+                        </div>
+                    </div>
+                    <div class="slidern__item">
+                        <div class="slider__main-img">
+                            <img class="slider__img" src="images/slider-main-img.png" alt="">
+                        </div>
+                        <div class="slider__item-desc">
+                            <div class="slider__item-title">
+                                Low-energy панели
+                            </div>
+                            <p class="slider__item-text">
+                                Это позволяет вам сэкономить на отоплении дома до 50 %. Снижает ваши расходы на содержание дома в процессе его эксплуатации. Благодаря этому вы получаете дополнительные денежные средства, которые можете потратить на себя. Это дает вам огромное преимущество
+                                перед домовладельцами, которые не обращают внимания на энергоэффективность, выбирают энергозатратное жилье и всю жизнь топят улицу.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="slidern__item">
+                        <div class="slider__main-img">
+                            <img class="slider__img" src="images/slider-main-img.png" alt="">
+                        </div>
+                        <div class="slider__item-desc">
+                            <div class="slider__item-title">
+                                Super Panely
+                            </div>
+                            <p class="slider__item-text">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde dicta nihil assumenda consequuntur natus neque voluptates amet voluptatibus, labore quas at, quasi et doloribus molestiae fugiat nobis a delectus dolorem repudiandae dignissimos enim impedit.
+                                Optio maiores minus maxime nemo! Dolore harum eligendi saepe facere praesentium recusandae ipsam voluptatum voluptatibus itaque.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider__nav">
+                    <div class="slider__nav-img">
+                        <img src="images/slider-sub-img-1.png" alt="">
+                    </div>
+                    <div class="slider__nav-img">
+                        <img src="images/slider-sub-img-2.png" alt="">
+                    </div>
+                    <div class="slider__nav-img">
+                        <img src="images/slider-sub-img-3.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="catalog">
+        <div class="container">
+            <div class="catalog__title">
+                Каталог проектов и домов
+            </div>
+            <div class="catalog__top">
+                <div class="catalog__top-inner">
+                    <div class="catalog__top-list">
+                        <div class="ssqsqs">
+                            <button class="def__btn btn--active">
+                                FinnKoti
+                            </button>
+                            <button class="title__btn ">
+                                FinnKoti Lite<span data-tooltip="Какой-то супер упер пупер текст"></span>
+                            </button>
+                        </div>
+                        <select class="catalog__top-select">
+                            <option class="catalog__top-option" value="#">
+                                Этажность
+                            </option>
+                            <option class="catalog__top-option" value="#">
+                                Убывание цены
+                            </option>
+                            <option class="catalog__top-option" value="#">
+                                Возрастанию долара
+                            </option>
+                        </select>
+                        <select class="catalog__top-select">
+                            <option class="catalog__top-option" value="#">
+                                Комнаты
+                            </option>
+                            <option class="catalog__top-option" value="#">
+                                Убывание цены
+                            </option>
+                            <option class="catalog__top-option" value="#">
+                                Возрастанию долара
+                            </option>
+                        </select>
+                        <select class="catalog__top-select">
+                            <option class="catalog__top-option" value="#">
+                                Площадь
+                            </option>
+                            <option class="catalog__top-option" value="#">
+                                Убывание цены
+                            </option>
+                            <option class="catalog__top-option" value="#">
+                                Возрастанию долара
+                            </option>
+                        </select>
+                        <button class="def__btn-pick catalog__block-element">Подобрать</button>
+                    </div>
+                    <select class="catalog__top-select catalog__block-element">
+                        <option class="catalog__top-option" value="#">
+                            Сортировать по
+                        </option>
+                        <option class="catalog__top-option" value="#">
+                            Убывание цены
+                        </option>
+                        <option class="catalog__top-option" value="#">
+                            Возрастанию долара
+                        </option>
+                    </select>
+                </div>
+                <div class="catalog__bottom">
+                    <input type="checkbox" id="availability" name="check-list">
+                    <label for="availability">Наличие гаража</label>
+                    <input type="checkbox" id="house" name="check-list">
+                    <label for="house">Дом на склоне</label>
+                    <input type="checkbox" id="deal" name="check-list">
+                    <label for="deal">Акция</label>
+                </div>
+            </div>
+            <div class="catalog__card">
+                <div class="catalog__card-inner">
+                    <div class="card__item-wrapper">
+                    <div class="catalog__card-item">
+                        <img class="catalog__card-img" src="images/Row-icon/house-1.jpg" alt="">
+                        <div class="catalog__card-desc">
+                            <div class="catalog__card-name">
+                                <div class="catalog__card-title">Atmosphere</div>
+                                <span class="catalog__sub-title">Panorama</span>
+                            </div>
+                            <div class="catalog__card-price"><span class="catalog__card-sub-text">от</span>3 345 000 <span class="catalog__card-sub-text">руб</span></div>
+                        </div>
+                        <div class="catalog__card-projdesc">
+                            <ul class="catalog__card-list">
+                                <li class="catalog__card-list-items list__items-plans">254 кв.м</li>
+                                <li class="catalog__card-list-items list__items-floor">1,5 этажа</li>
+                                <li class="catalog__card-list-items list__items-number">6 шт.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="card__item-wrapper">
+                    <div class="catalog__card-item">
+                        <img class="catalog__card-img" src="images/Row-icon/house-2.jpg" alt="">
+                        <div class="catalog__card-desc">
+                            <div class="catalog__card-name">
+                                <h4 class="catalog__card-title">Atmosphere</h4>
+                                <div class="catalog__sub-title">Panorama</div>
+                            </div>
+                            <div class="catalog__card-price"><span class="catalog__card-sub-text">от</span>3 345 000 <span class="catalog__card-sub-text">руб</span></div>
+                        </div>
+                        <div class="catalog__card-projdesc">
+                            <ul class="catalog__card-list">
+                                <li class="catalog__card-list-items list__items-plans">254 кв.м</li>
+                                <li class="catalog__card-list-items list__items-floor">1,5 этажа</li>
+                                <li class="catalog__card-list-items list__items-number">6 шт.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="card__item-wrapper">
+                    <div class="catalog__card-item">
+                        <img class="catalog__card-img" src="images/Row-icon/house-3.jpg" alt="">
+                        <div class="catalog__card-desc">
+                            <div class="catalog__card-name">
+                                <div class="catalog__card-title">Atmosphere</div>
+                                <span class="catalog__sub-title">Panorama</span>
+                            </div>
+                            <div class="catalog__card-price"><span class="catalog__card-sub-text">от</span>3 345 000 <span class="catalog__card-sub-text">руб</span></div>
+                        </div>
+                        <div class="catalog__card-projdesc">
+                            <ul class="catalog__card-list">
+                                <li class="catalog__card-list-items list__items-plans">254 кв.м</li>
+                                <li class="catalog__card-list-items list__items-floor">1,5 этажа</li>
+                                <li class="catalog__card-list-items list__items-number">6 шт.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="card__item-wrapper">
+                    <div class="catalog__card-item">
+                        <img class="catalog__card-img" src="images/Row-icon/house-3.jpg" alt="">
+                        <div class="catalog__card-desc">
+                            <div class="catalog__card-name">
+                                <div class="catalog__card-title">Atmosphere</div>
+                                <span class="catalog__sub-title">Panorama</span>
+                            </div>
+                            <div class="catalog__card-price"><span class="catalog__card-sub-text">от</span>3 345 000 <span class="catalog__card-sub-text">руб</span></div>
+                        </div>
+                        <div class="catalog__card-projdesc">
+                            <ul class="catalog__card-list">
+                                <li class="catalog__card-list-items list__items-plans">254 кв.м</li>
+                                <li class="catalog__card-list-items list__items-floor">1,5 этажа</li>
+                                <li class="catalog__card-list-items list__items-number">6 шт.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="card__item-wrapper">
+                    <div class="catalog__card-item">
+                        <img class="catalog__card-img" src="images/Row-icon/house-1.jpg" alt="">
+                        <div class="catalog__card-desc">
+                            <div class="catalog__card-name">
+                                <div class="catalog__card-title">Atmosphere</div>
+                                <span class="catalog__sub-title">Panorama</span>
+                            </div>
+                            <div class="catalog__card-price"><span class="catalog__card-sub-text">от</span>3 345 000 <span class="catalog__card-sub-text">руб</span></div>
+                        </div>
+                        <div class="catalog__card-projdesc">
+                            <ul class="catalog__card-list">
+                                <li class="catalog__card-list-items list__items-plans">254 кв.м</li>
+                                <li class="catalog__card-list-items list__items-floor">1,5 этажа</li>
+                                <li class="catalog__card-list-items list__items-number">6 шт.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+            <div class="catalog__info">
+                <button class="catalog__btn">
+                    Смотреть каталог
+                </button>
+                <p class="catalog__word">
+                    или
+                </p>
+            </div>
+        </div>
+    </section>
+    <section class="test">
+        <div class="container">
+            <div class="test__inner">
+                <img class="test__bg" src="images/test-bg.jpg" alt="">
+                <div class="test__desc">
+                    <h3 class="test__title">
+                        Ответь на 5 вопросов и узнай какой дом подходит именно тебе
+                    </h3>
+                    <p class="test__text">
+                        В конце теста тебя ждет подарок: каталог домов 2019 года
+                    </p>
+                    <a href="#" class="test__link">
+                        Пройти тест
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="feedback">
+        <div class="container">
+            <div class="feedback__inner">
+                <div class="feedback__title">
+                    Отзывы
+                </div>
+                <div class="feedback__slider-inner">
+                    <div class="feedback__slider-item">
+                        <div class="feedback__slider-img">
+                            <img class="feedback__slider-card__img" src="images/feedback/fb-slide.jpg" alt="">
+                        </div>
+                        <div class="feedback__slider-info">
+                            <div class="feedback__slider-title">
+                                Алексей Иванов
+                            </div>
+                            <p class="feedback__slider-text">
+                                Как у всех людей, решающих строить свой первый дом, главный вопрос – из какого материала? Как и многие, рассматривали четыре альтернативы - газобетон, кирпич, клееный брус, каркас...
+                            </p>
+                            <a href="#" class="feedback__slider-link">Читать далее</a>
+                            <div class="feedback__slider-copy">
+                                Проект SnowBall
+                            </div>
+                        </div>
+                    </div>
+                    <div class="feedback__slider-item">
+                        <div>
+                            <img class="feedback__slider-img" src="images/feedback/fb-slide.jpg" alt="">
+                        </div>
+                        <div class="feedback__slider-info">
+                            <div class="feedback__slider-title">
+                                Алексей Иванов
+                            </div>
+                            <p class="feedback__slider-text">
+                                Как у всех людей, решающих строить свой первый дом, главный вопрос – из какого материала? Как и многие, рассматривали четыре альтернативы - газобетон, кирпич, клееный брус, каркас...
+                            </p>
+                            <a href="#" class="feedback__slider-link">Читать далее</a>
+                            <div class="feedback__slider-copy">
+                                Проект SnowBall
+                            </div>
+                        </div>
+                    </div>
+                    <div class="feedback__slider-item">
+                        <div>
+                            <img class="feedback__slider-img" src="images/feedback/fb-slide.jpg" alt="">
+                        </div>
+                        <div class="feedback__slider-info">
+                            <div class="feedback__slider-title">
+                                Алексей Иванов
+                            </div>
+                            <p class="feedback__slider-text">
+                                Как у всех людей, решающих строить свой первый дом, главный вопрос – из какого материала? Как и многие, рассматривали четыре альтернативы - газобетон, кирпич, клееный брус, каркас...
+                            </p>
+                            <a href="#" class="feedback__slider-link">Читать далее</a>
+                            <div class="feedback__slider-copy">
+                                Проект SnowBall
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="stages">
+        <div class="container">
+            <div class="stages__wrapper">
+                <div class="stages__title">
+                    Этапы работ
+                </div>
+                <div class="stages__slider">
+                    <div class="stages__slider-inner">
+                        <div class="stages__slider-nav">
+                            <div class="stages__nav-items">
+                                <span>01</span>
+                            </div>
+                            <div class="stages__nav-items">
+                                <span>02</span>
+                            </div>
+                            <div class="stages__nav-items">
+                                <span>03</span>
+                            </div>
+                            <div class="stages__nav-items">
+                                <span>04</span>
+                            </div>
+                            <div class="stages__nav-items">
+                                <span>05</span>
+                            </div>
+                            <div class="stages__nav-items">
+                                <span>06</span>
+                            </div>
+                            <div class="stages__nav-items">
+                                <span>07</span>
+                            </div>
+                        </div>
+                        <div class="stages__slider-for">
+                            <div class="stages__slider-for__item">
+                                <div class="stages__slider-for__inner">
+                                    <picture>
+                                        <source type="image/webp" srcset="images/Stages-slider/stages-slide-img-320.webp 1x" media="(max-width: 540px)">
+                                        <source type="image/webp" srcset="images/Stages-slider/stages-slide-img-768.webp 1x" media="(max-width: 768px)">
+                                        <source type="image/webp" srcset="images/stages-slide-img.webp 1x">
+                                        <img src="images/Stages-slider/stages-slide-img.png 1x" alt="">
+                                    </picture>
+                                    <div class="stages__slider-for__desc">
+                                        <span class="stages__slider-for__num">01</span>
+                                        <div class="stages__slider-for-title">
+                                            Выбор проекта дома.
+                                        </div>
+                                        <div class="stages__slider-for-text">
+                                            Строительство дома – важный и очень ответственный шаг в жизни. Чтобы не было впоследствии мучительно больно от того, что не все предусмотрели, проект дома лучше выбирать с помощью специалиста. Возможно, вам нужен дом значительно меньше, чем вы думали
+                                            и все пожелания по спальням, кабинетам и сауне можно разместить более эргономично. Сколько комнат выбрать? Лучше одноэтажный или двухэтажный дом? Какая планировка дешевле? Что предусмотреть на будущее? На эти
+                                            и еще множество других вопросов вам ответит наш специалист на встрече в офисе.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="stages__slider-for__item">
+                                <div class="stages__slider-for__inner">
+                                    <picture>
+                                        <source type="image/webp" srcset="images/Stages-slider/stages-slide-img-320.webp 1x" media="(max-width: 540px)">
+                                        <source type="image/webp" srcset="images/Stages-slider/stages-slide-img-768.webp 1x" media="(max-width: 768px)">
+                                        <source type="image/webp" srcset="images/stages-slide-img.webp 1x">
+                                        <img src="images/Stages-slider/stages-slide-img.png 1x" alt="">
+                                    </picture>
+                                    <div class="stages__slider-for__desc">
+                                        <span class="stages__slider-for__num">02</span>
+                                        <div class="stages__slider-for-title">
+                                            Выбор проекта дома.
+                                        </div>
+                                        <div class="stages__slider-for-text">
+                                            Строительство дома – важный и очень ответственный шаг в жизни. Чтобы не было впоследствии мучительно больно от того, что не все предусмотрели, проект дома лучше выбирать с помощью специалиста. Возможно, вам нужен дом значительно меньше, чем вы думали
+                                            и все пожелания по спальням, кабинетам и сауне можно разместить более эргономично. Сколько комнат выбрать? Лучше одноэтажный или двухэтажный дом? Какая планировка дешевле? Что предусмотреть на будущее? На эти
+                                            и еще множество других вопросов вам ответит наш специалист на встрече в офисе.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="stages__slider-for__item">
+                                <div class="stages__slider-for__inner">
+                                    <picture>
+                                        <source type="image/webp" srcset="images/Stages-slider/stages-slide-img-320.webp 1x" media="(max-width: 540px)">
+                                        <source type="image/webp" srcset="images/Stages-slider/stages-slide-img-768.webp 1x" media="(max-width: 768px)">
+                                        <source type="image/webp" srcset="images/stages-slide-img.webp 1x">
+                                        <img src="images/Stages-slider/stages-slide-img.png 1x" alt="">
+                                    </picture>
+                                    <div class="stages__slider-for__desc">
+                                        <span class="stages__slider-for__num">03</span>
+                                        <div class="stages__slider-for-title">
+                                            Выбор проекта дома.
+                                        </div>
+                                        <div class="stages__slider-for-text">
+                                            Строительство дома – важный и очень ответственный шаг в жизни. Чтобы не было впоследствии мучительно больно от того, что не все предусмотрели, проект дома лучше выбирать с помощью специалиста. Возможно, вам нужен дом значительно меньше, чем вы думали
+                                            и все пожелания по спальням, кабинетам и сауне можно разместить более эргономично. Сколько комнат выбрать? Лучше одноэтажный или двухэтажный дом? Какая планировка дешевле? Что предусмотреть на будущее? На эти
+                                            и еще множество других вопросов вам ответит наш специалист на встрече в офисе.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="stages__slider-for__item">
+                                <div class="stages__slider-for__inner">
+                                    <picture>
+                                        <source type="image/webp" srcset="images/Stages-slider/stages-slide-img-320.webp 1x" media="(max-width: 540px)">
+                                        <source type="image/webp" srcset="images/Stages-slider/stages-slide-img-768.webp 1x" media="(max-width: 768px)">
+                                        <source type="image/webp" srcset="images/stages-slide-img.webp 1x">
+                                        <img src="images/Stages-slider/stages-slide-img.png 1x" alt="">
+                                    </picture>
+                                    <div class="stages__slider-for__desc">
+                                        <span class="stages__slider-for__num">04</span>
+                                        <div class="stages__slider-for-title">
+                                            Выбор проекта дома.
+                                        </div>
+                                        <div class="stages__slider-for-text">
+                                            Строительство дома – важный и очень ответственный шаг в жизни. Чтобы не было впоследствии мучительно больно от того, что не все предусмотрели, проект дома лучше выбирать с помощью специалиста. Возможно, вам нужен дом значительно меньше, чем вы думали
+                                            и все пожелания по спальням, кабинетам и сауне можно разместить более эргономично. Сколько комнат выбрать? Лучше одноэтажный или двухэтажный дом? Какая планировка дешевле? Что предусмотреть на будущее? На эти
+                                            и еще множество других вопросов вам ответит наш специалист на встрече в офисе.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="stages__slider-for__item">
+                                <div class="stages__slider-for__inner">
+                                    <picture>
+                                        <source type="image/webp" srcset="images/Stages-slider/stages-slide-img-320.webp 1x" media="(max-width: 540px)">
+                                        <source type="image/webp" srcset="images/Stages-slider/stages-slide-img-768.webp 1x" media="(max-width: 768px)">
+                                        <source type="image/webp" srcset="images/stages-slide-img.webp 1x">
+                                        <img src="images/Stages-slider/stages-slide-img.png 1x" alt="">
+                                    </picture>
+                                    <div class="stages__slider-for__desc">
+                                        <span class="stages__slider-for__num">05</span>
+                                        <div class="stages__slider-for-title">
+                                            Выбор проекта дома.
+                                        </div>
+                                        <div class="stages__slider-for-text">
+                                            Строительство дома – важный и очень ответственный шаг в жизни. Чтобы не было впоследствии мучительно больно от того, что не все предусмотрели, проект дома лучше выбирать с помощью специалиста. Возможно, вам нужен дом значительно меньше, чем вы думали
+                                            и все пожелания по спальням, кабинетам и сауне можно разместить более эргономично. Сколько комнат выбрать? Лучше одноэтажный или двухэтажный дом? Какая планировка дешевле? Что предусмотреть на будущее? На эти
+                                            и еще множество других вопросов вам ответит наш специалист на встрече в офисе.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="stages__slider-for__item">
+                                <div class="stages__slider-for__inner">
+                                    <picture>
+                                        <source type="image/webp" srcset="images/Stages-slider/stages-slide-img-320.webp 1x" media="(max-width: 540px)">
+                                        <source type="image/webp" srcset="images/Stages-slider/stages-slide-img-768.webp 1x" media="(max-width: 768px)">
+                                        <source type="image/webp" srcset="images/stages-slide-img.webp 1x">
+                                        <img src="images/Stages-slider/stages-slide-img.png 1x" alt="">
+                                    </picture>
+                                    <div class="stages__slider-for__desc">
+                                        <span class="stages__slider-for__num">06</span>
+                                        <div class="stages__slider-for-title">
+                                            Выбор проекта дома.
+                                        </div>
+                                        <div class="stages__slider-for-text">
+                                            Строительство дома – важный и очень ответственный шаг в жизни. Чтобы не было впоследствии мучительно больно от того, что не все предусмотрели, проект дома лучше выбирать с помощью специалиста. Возможно, вам нужен дом значительно меньше, чем вы думали
+                                            и все пожелания по спальням, кабинетам и сауне можно разместить более эргономично. Сколько комнат выбрать? Лучше одноэтажный или двухэтажный дом? Какая планировка дешевле? Что предусмотреть на будущее? На эти
+                                            и еще множество других вопросов вам ответит наш специалист на встрече в офисе.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="stages__slider-for__item">
+                                <div class="stages__slider-for__inner">
+                                    <picture>
+                                        <source type="image/webp" srcset="images/Stages-slider/stages-slide-img-320.webp 1x" media="(max-width: 540px)">
+                                        <source type="image/webp" srcset="images/Stages-slider/stages-slide-img-768.webp 1x" media="(max-width: 768px)">
+                                        <source type="image/webp" srcset="images/stages-slide-img.webp 1x">
+                                        <img src="images/Stages-slider/stages-slide-img.png 1x" alt="">
+                                    </picture>
+                                    <div class="stages__slider-for__desc">
+                                        <span class="stages__slider-for__num">07</span>
+                                        <div class="stages__slider-for-title">
+                                            Выбор проекта дома.
+                                        </div>
+                                        <div class="stages__slider-for-text">
+                                            Строительство дома – важный и очень ответственный шаг в жизни. Чтобы не было впоследствии мучительно больно от того, что не все предусмотрели, проект дома лучше выбирать с помощью специалиста. Возможно, вам нужен дом значительно меньше, чем вы думали
+                                            и все пожелания по спальням, кабинетам и сауне можно разместить более эргономично. Сколько комнат выбрать? Лучше одноэтажный или двухэтажный дом? Какая планировка дешевле? Что предусмотреть на будущее? На эти
+                                            и еще множество других вопросов вам ответит наш специалист на встрече в офисе.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__inner">
+                <div class="footer__title">
+                    Финское качество на всех этапах строительства
+                </div>
+                <div class="footer__list">
+                    <ul class="footer__list-item">
+                        <li>
+                            <h4 class="footer__list-item__title">О компании</h4>
+                        </li>
+                        <li><a class="footer__list-items__link" href="#">Принципы</a></li>
+                        <li><a class="footer__list-items__link" href="#">Стратегия</a></li>
+                        <li><a class="footer__list-items__link" href="#">Отзывы</a></li>
+                        <li><a class="footer__list-items__link" href="#">Статьи</a></li>
+                    </ul>
+                </div>
+                <div class="footer__list">
+                    <ul class="footer__list-item">
+                        <li>
+                            <h4 class="footer__list-item__title">Покупка</h4>
+                        </li>
+                        <li><a class="footer__list-items__link" href="#"> Каталог</a></li>
+                        <li><a class="footer__list-items__link" href="#">Этапы получения</a></li>
+                        <li><a class="footer__list-items__link" href="#">Документы</a></li>
+                        <li><a class="footer__list-items__link" href="#">Требования</a></li>
+                    </ul>
+                </div>
+                <div class="footer__list">
+                    <ul class="footer__list-item footer__list-item__info">
+                        <li>
+                            <h4 class="footer__list-item__title">Время работы</h4>
+                        </li>
+                        <li class="footer__list-item_time "><span class="footer__list-item__date">Понедельник - Суббота</span> 7:00 - 22:00</li>
+                        <li class="footer__list-item_time "><span class="footer__list-item__date">Воскресенье</span> 9:00 - 20:00</li>
+                    </ul>
+                </div>
+                <div class="footer__list">
+                    <ul class="footer__list-item">
+                        <li>
+                            <h4 class="footer__list-item__title">Контакты</h4>
+                        </li>
+                        <li><a class="footer__list-items__link footer__list-items__links footer__list-items__links__tel" href="tel:+78121243322">+7 (812) 124-33-22</a></li>
+                        <li><a class="footer__list-items__link footer__list-items__links footer__list-items__links__mail" href="#">info@finnkoti.ru</a></li>
+                        <li><a class="footer__list-items__link footer__list-items__links footer__list-items__links__nav" href="#">ул. Пушкина д.5</a></li>
+                    </ul>
+                </div>
+                <div class="footer__mailing">
+                    <h4 class="footer__mailing-title">
+                        Подпишитесь на рассылку
+                    </h4>
+                    <form class="footer__mailing-form">
+                        <input class="footer__mailing-input" type="text" placeholder="Введите e-mail">
+                        <button class="footer__mailing-btn" type="submit">Подписаться</button>
+                        <div class="footer__mailing-img">
+                            <a class="footer__mailing-link" href="#"><img src="images/footer/facebook-icon.svg" alt=""></a>
+                            <a class="footer__mailing-link" href="#"><img src="images/footer/twitter-icon.svg" alt=""></a>
+                            <a class="footer__mailing-link" href="#"> <img src="images/footer/wk-icon.svg" alt=""></a>
+                            <a class="footer__mailing-link" href="#"><img src="images/footer/instagram-icon.svg" alt=""></a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="footer__copy">
+                © 2019 FinnKoti All rights reserved
+            </div>
+        </div>
+    </footer> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/jquery.formstyler.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
